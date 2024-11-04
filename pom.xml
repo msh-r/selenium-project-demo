@@ -3,13 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.edureka</groupId>
-	<artifactId>
-	selenium-project-demo</artifactId>
+	<artifactId>selenium-project-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>selenium
-	test</name>
-	<description>selenium based project</description> this is my
-	POM.xml , where should i find testng results? <dependencies>
+	<name>selenium test</name>
+	<description>selenium based project</description>
+	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
@@ -53,8 +51,7 @@
 				<artifactId>maven-failsafe-plugin</artifactId>
 				<version>3.1.0</version>
 				<configuration>
-					<reportsDirectory>
-	${project.build.directory}/surefire-reports</reportsDirectory>
+					<reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
 				</configuration>
 			</plugin>
 		</plugins>
